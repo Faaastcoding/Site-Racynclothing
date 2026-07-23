@@ -14,6 +14,7 @@ Site statique, rapide, sans dépendance ni build. Prêt à héberger partout (Gi
 - **Fiche produit** (`produit.html?id=...`) : galerie, coloris, ajout au panier, produits liés
 - **L'histoire** (`histoire.html`) : storytelling de la marque + valeurs
 - **FAQ** (`faq.html`) : questions fréquentes en accordéon
+- **Pages légales** (`mentions-legales.html`, `cgv.html`, `confidentialite.html`) : modèles conformes France/RGPD, avec **champs surlignés à compléter** après immatriculation
 - **Panier** : tiroir latéral (localStorage), calcul livraison, **commande envoyée en message pré-rempli WhatsApp ou DM Instagram**
 - **Bilingue FR / EN** avec sélecteur de langue (mémorisé)
 - 100 % responsive / mobile-first, animations au scroll, SEO de base + Open Graph
@@ -67,6 +68,12 @@ Puis mets à jour les chemins `image` / `images` dans `js/data.js`.
 ### 4. Les textes → `js/i18n.js`
 
 Tous les textes du site (FR et EN) sont centralisés ici. Modifie ce que tu veux.
+
+### 5. Pages légales (obligatoires en France) ⚖️
+
+`mentions-legales.html`, `cgv.html` et `confidentialite.html` contiennent des **champs surlignés en jaune** (ex. `[SIRET]`, `[Prénom NOM]`, `[adresse]`) à remplir **une fois la micro-entreprise immatriculée** (SIRET reçu).
+
+> ⚠️ **Vendre régulièrement des créations en France nécessite d'être immatriculée** (micro-entreprise / auto-entrepreneur). C'est **gratuit et en ligne** sur [formalites.entreprises.gouv.fr](https://formalites.entreprises.gouv.fr). Aucune charge tant qu'il n'y a pas de chiffre d'affaires. Ces modèles de pages sont fournis à titre indicatif — faites-les relire si besoin.
 
 ---
 

@@ -122,6 +122,9 @@ window.RACYN_I18N = {
     "footer.about": "La marque",
     "footer.help": "Aide",
     "footer.follow": "Suivez-nous",
+    "footer.legal": "Mentions légales",
+    "footer.cgv": "CGV",
+    "footer.privacy": "Confidentialité",
     "footer.rights": "Tous droits réservés.",
     "footer.made": "Fait main avec 🤎",
 
@@ -250,6 +253,9 @@ window.RACYN_I18N = {
     "footer.about": "Brand",
     "footer.help": "Help",
     "footer.follow": "Follow us",
+    "footer.legal": "Legal notice",
+    "footer.cgv": "Terms of sale",
+    "footer.privacy": "Privacy",
     "footer.rights": "All rights reserved.",
     "footer.made": "Handmade with 🤎",
 

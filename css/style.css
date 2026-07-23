@@ -337,6 +337,26 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 500; line-height: 1.
 .story-text p { font-size: 18px; color: var(--ink-soft); margin: 0 0 22px; }
 .story-text p:first-of-type::first-letter { font-family: var(--font-display); font-size: 3.2em; float: left; line-height: .8; padding: 6px 12px 0 0; color: var(--espresso); }
 
+/* ---------- Legal pages ---------- */
+.legal { max-width: 780px; margin: 0 auto; }
+.legal h2 { font-size: clamp(20px, 3vw, 27px); margin: 40px 0 14px; }
+.legal h2:first-child { margin-top: 0; }
+.legal h3 { font-family: var(--font-body); font-size: 16px; font-weight: 600; margin: 22px 0 8px; }
+.legal p, .legal li { color: var(--ink-soft); font-size: 15.5px; margin: 0 0 12px; }
+.legal ul { list-style: disc; padding-left: 22px; margin: 0 0 16px; }
+.legal li { margin-bottom: 7px; }
+.legal a { color: var(--espresso); text-decoration: underline; text-underline-offset: 3px; }
+.legal .updated { font-size: 13px; color: var(--ink-soft); font-style: italic; margin-bottom: 30px; }
+.legal .fill {
+  background: #FBEFD8; color: #7A5B1E; border: 1px dashed #C79A4E;
+  border-radius: 6px; padding: 1px 7px; font-weight: 600; font-size: .95em;
+  font-family: var(--font-body); font-style: normal;
+}
+.legal .note {
+  background: var(--paper-2); border-left: 3px solid var(--sage);
+  border-radius: 0 8px 8px 0; padding: 14px 18px; margin: 0 0 24px; font-size: 14px;
+}
+
 /* ---------- Footer ---------- */
 .site-footer { background: var(--espresso-2); color: var(--paper-3); padding: clamp(50px, 6vw, 80px) 0 30px; }
 .footer-grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 40px; }
