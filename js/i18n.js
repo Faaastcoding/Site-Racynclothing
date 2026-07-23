@@ -128,6 +128,10 @@ window.RACYN_I18N = {
     "footer.rights": "Tous droits réservés.",
     "footer.made": "Fait main avec 🤎",
 
+    "nf.title": "Cette page s'est perdue…",
+    "nf.body": "La page que tu cherches n'existe pas ou a été déplacée. Retrouvons les sacs.",
+    "nf.cta": "Retour à l'accueil",
+
     "wa.hello": "Bonjour RACYN. ! Je souhaite commander :",
     "wa.total": "Total",
     "wa.name": "Mon nom :",
@@ -258,6 +262,10 @@ window.RACYN_I18N = {
     "footer.privacy": "Privacy",
     "footer.rights": "All rights reserved.",
     "footer.made": "Handmade with 🤎",
+
+    "nf.title": "This page got lost…",
+    "nf.body": "The page you're looking for doesn't exist or has moved. Let's find the bags.",
+    "nf.cta": "Back to home",
 
     "wa.hello": "Hi RACYN.! I'd like to order:",
     "wa.total": "Total",

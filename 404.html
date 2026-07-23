@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page introuvable — RACYN.</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#3A2A1E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%234A3728'/%3E%3Ctext x='50' y='68' font-size='58' font-family='Georgia,serif' fill='%23FAF5EC' text-anchor='middle' font-style='italic'%3ER%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .nf { min-height: 72vh; display: grid; place-items: center; text-align: center; padding: 60px 22px; }
+    .nf__code { font-family: var(--font-display); font-size: clamp(70px, 16vw, 140px); line-height: 1; color: var(--sage); }
+    .nf h1 { font-size: clamp(26px, 4vw, 38px); margin: 10px 0 14px; }
+    .nf p { color: var(--ink-soft); max-width: 420px; margin: 0 auto 28px; }
+  </style>
+</head>
+<body>
+  <div class="announce" data-i18n="announce"></div>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="index.html" class="brand"><span class="brand__word">RACYN.</span><span class="brand__sub">Clothing</span></a>
+      <nav class="nav" data-nav>
+        <a class="nav-link" href="boutique.html" data-i18n="nav.shop"></a>
+        <a class="nav-link" href="histoire.html" data-i18n="nav.story"></a>
+        <a class="nav-link" href="faq.html" data-i18n="nav.faq"></a>
+        <div class="lang-switch"><button data-lang-btn="fr">FR</button><button data-lang-btn="en">EN</button></div>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-switch"><button data-lang-btn="fr">FR</button><button data-lang-btn="en">EN</button></div>
+        <button class="cart-btn" data-open-cart aria-label="Cart" data-i18n-attr="aria-label:nav.cart">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="cart-count is-empty" data-cart-count>0</span>
+        </button>
+        <button class="burger" data-burger aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="nf">
+      <div>
+        <div class="nf__code">404</div>
+        <h1 data-i18n="nf.title"></h1>
+        <p data-i18n="nf.body"></p>
+        <a class="btn btn-primary btn-lg" href="index.html" data-i18n="nf.cta"></a>
+      </div>
+    </section>
+  </main>
+
+  <div class="overlay" data-overlay></div>
+  <aside class="cart-drawer" data-cart-drawer aria-label="Cart">
+    <div class="cart-head"><h2 data-i18n="cart.title"></h2><button class="cart-close" data-close-cart aria-label="Close">&times;</button></div>
+    <div class="cart-body" data-cart-items></div>
+    <div class="cart-foot" data-cart-summary hidden>
+      <div class="cart-line"><span data-i18n="cart.subtotal"></span><span data-sub></span></div>
+      <div class="cart-line"><span data-i18n="cart.shipping"></span><span data-ship></span></div>
+      <div class="cart-line total"><span data-i18n="cart.total"></span><span data-total></span></div>
+      <button class="btn btn-primary btn-block" data-checkout-wa hidden></button>
+      <button class="btn btn-primary btn-block" data-checkout-ig hidden></button>
+      <p class="cart-note" data-i18n="cart.note"></p>
+    </div>
+  </aside>
+
+  <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/store.js"></script>
+</body>
+</html>
